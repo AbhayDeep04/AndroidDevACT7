@@ -325,7 +325,7 @@ class _SecondFadingPageState extends State<SecondFadingPage>
       child: FadeTransition(
         opacity: _opacityAnimation,
         child: Text(
-          'Welcome to Second Screen!',
+          'Welcome to Second Screen!',dd
           style: TextStyle(fontSize: 24, color: widget.textColor),
         ),
       ),
